@@ -1,6 +1,6 @@
-# Web Automation Framework
+# Web Automation Framework Template
 
-This project contains the files for a simple python based bbd style test automation framework
+This project contains the files for a simple python based bbd style test automation framework template
 
 ## Introduction to the test script
 There is one test script:test_home_page.py. This script's purpose is to check objective
