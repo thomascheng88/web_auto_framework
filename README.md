@@ -51,7 +51,7 @@ Type in the following command in terminal:
 pytest ../test_home_page.py
 
 Optional options
---browser: select the type of browser to run 
---lang: select the language 
---private_mode: open the browser is incongitio/private window
---headless: run test unattended or attended (can see browser execution)
+- --browser: select the type of browser to run 
+- --lang: select the language 
+- --private_mode: open the browser is incongitio/private window
+- --headless: run test unattended or attended (can see browser execution)
