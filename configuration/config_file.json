@@ -1,0 +1,10 @@
+{
+  "browser": "chrome",
+  "wait_time": 30,
+  "stage_url": "https://stage.www.example.com",
+  "latest_url": "https://latest.www.example.com/",
+  "prod_url": "https://www.google.com/",
+  "url_select": "prod",
+  "log_path": "C:\\Users\\ThomasCUser\\Documents\\python_projects\\web_auto_framework\\logs",
+  "hkdl_path": "C:\\Users\\ThomasCUser\\Documents\\python_projects\\web_auto_framework\\"
+}
