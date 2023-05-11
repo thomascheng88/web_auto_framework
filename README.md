@@ -2,11 +2,9 @@
 
 This project contains the files for a simple python based bbd style test automation framework template
 
-## Introduction to the test script
-There is one test script:test_home_page.py. This script's purpose is to check objective
+### Introduction to the test script
+There is one example test script:test_home_page.py This script's purpose is to check objective
 1. Homepage is displayed
-
-See video for an example on how to execute script: cg_demo.mp4
 
 ### Setup & Configuration Instructions Before Running the Script:
 
@@ -15,7 +13,7 @@ System Requirements
 - Local Disk > 100GB
 - CPU that Support VT-x (hardware accelerated visualization) <- require for Android emulator
 
-#### Step-by-Step Instructions (Windows):
+### Step-by-Step Instructions (Windows):
 1. Download Python version greater than 3.10.x from https://www.python.org/downloads/
 
     **RECOMMENDED**: current working version 3.10.4 https://www.python.org/downloads/release/python-3104/
