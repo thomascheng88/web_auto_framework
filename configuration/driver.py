@@ -83,11 +83,9 @@ class DriverClass:
         """
         options = webdriver.ChromeOptions()
         options.set_capability('platformName', 'Android')
-        print(
-            f'inside the get_android_simulator_chrome_browser: {ConfigSettingsClass.driver_path}chrome_91.0.4472.101/chromedriver')
         options.set_capability('chromedriverExecutable',
-                               f'{ConfigSettingsClass.driver_path}chrome_91.0.4472.101/chromedriver')
-        options.set_capability('deviceName', '26288d01bc1c7ece')
+                               f'{ConfigSettingsClass.driver_path}chromedriver_win32_103.0.5060.134/chromedriver')
+       # options.set_capability('deviceName', '26288d01bc1c7ece')
         options.set_capability('deviceName', 'emulator-5554')
         # capabilities = {
         #    'platformName': 'Android',

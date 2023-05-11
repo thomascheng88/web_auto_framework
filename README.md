@@ -1,6 +1,6 @@
 # Web Automation Framework Template
 
-This project contains the files for a simple python based bbd style test automation framework template
+This project contains the files for a simple python based bbd style test automation framework template for desktop web and mobile web
 
 ### Setup & Configuration Instructions Before Running the Script:
 
@@ -38,6 +38,7 @@ reference: https://wiki.python.org/moin/WindowsCompilers#Microsoft_Visual_C.2B-.
     - pytest v6.2.4 https://pypi.org/project/pytest/
     - allure-pytest-bdd
     - Appium Server Client
+    Separately requires installation of Appium Server (https://appium.io/docs/en/2.0/quickstart/install/)
 11. Download Pycharm CE (Community Edition) https://www.jetbrains.com/pycharm/download/
 12. Open Pycharm CE 
 13. Go to setting and install the following packages under python interpreter
