@@ -39,7 +39,7 @@ def when_scenario_one():
     logger.info("When guest navigate to the homepage")
 
 
-@then("displays the homepage search")
+@then("displays the homepage")
 def then_scenario_one(browser):
     logger.info("Then displays the homepage search")
 
@@ -48,20 +48,6 @@ def then_scenario_one(browser):
     assert True
     #else:
     #    screenshot_file_name = test_id + "_step1_then_fail_show_search"
-    #    common_steps = CommonStepClass()
-    #    common_steps.take_screenshot_add_to_report(screenshot_file_name, browser)
-    #    assert False
-
-
-@then("displays the homepage title")
-def then_scenario_one(browser):
-    logger.info("Then displays the homepage title")
-
-    #if "" is False:
-    #    logger.info("homepage title found on the current page")
-    assert True
-    #else:
-    #    screenshot_file_name = test_id + "_step1_then_fail_show_title"
     #    common_steps = CommonStepClass()
     #    common_steps.take_screenshot_add_to_report(screenshot_file_name, browser)
     #    assert False
