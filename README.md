@@ -2,10 +2,6 @@
 
 This project contains the files for a simple python based bbd style test automation framework template
 
-### Introduction to the test script
-There is one example test script:test_home_page.py This script's purpose is to check objective
-1. Homepage is displayed
-
 ### Setup & Configuration Instructions Before Running the Script:
 
 System Requirements
@@ -52,4 +48,10 @@ reference: https://wiki.python.org/moin/WindowsCompilers#Microsoft_Visual_C.2B-.
 
 ### How to Execute Test Scripts
 Type in the following command in terminal: 
-pytest test_home_page.py
+pytest ../test_home_page.py
+
+Optional options
+--browser: select the type of browser to run 
+--lang: select the language 
+--private_mode: open the browser is incongitio/private window
+--headless: run test unattended or attended (can see browser execution)
